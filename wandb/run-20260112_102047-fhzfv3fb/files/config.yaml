@@ -1,0 +1,44 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            x5vga1qgv3vnbt0m32ej794wjy28z3o1:
+                codePath: Documents/DTU/Kanditat/2. Semester/MLOPS/mlops_mnist/src/mnist_project/train.py
+                codePathLocal: src/mnist_project/train.py
+                email: mathias.krois@gmail.com
+                executable: /Users/mathiaskroismoller/Documents/DTU/Kanditat/2. Semester/MLOPS/mlops_mnist/.venv/bin/python3
+                git:
+                    commit: ac233ba7e0254d45f617ed926ee99de4528b188b
+                    remote: https://github.com/mathiaskrois/DSP.git
+                host: MacBookPro.localdomain
+                os: macOS-26.1-arm64-arm-64bit
+                program: /Users/mathiaskroismoller/Documents/DTU/Kanditat/2. Semester/MLOPS/mlops_mnist/src/mnist_project/train.py
+                python: CPython 3.12.12
+                root: /Users/mathiaskroismoller/Documents/DTU/Kanditat/2. Semester/MLOPS/mlops_mnist
+                startedAt: "2026-01-12T09:20:47.669169Z"
+                writerId: x5vga1qgv3vnbt0m32ej794wjy28z3o1
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 16
+            "4": 3.12.12
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": darwin-arm64
+batch_size:
+    value: 32
+epochs:
+    value: 5
+lr:
+    value: 0.001

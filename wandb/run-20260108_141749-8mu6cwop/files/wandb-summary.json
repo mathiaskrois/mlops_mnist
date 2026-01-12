@@ -1,0 +1,1 @@
+{"train_accuracy":0.09375,"_timestamp":1.767878271596431e+09,"_step":1,"images":{"caption":"Input images","_type":"image-file","sha256":"0b25652dd082fc1beae4afbc8d8858a059f3d2b9eab4af1d0cefa8a7642ea033","size":1913,"path":"media/images/images_1_0b25652dd082fc1beae4.png","format":"png","width":152,"height":32},"_wandb":{"runtime":1},"_runtime":1,"train_loss":2.307346820831299}

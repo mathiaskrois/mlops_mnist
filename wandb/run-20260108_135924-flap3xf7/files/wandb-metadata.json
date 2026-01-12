@@ -1,0 +1,37 @@
+{
+  "os": "macOS-26.1-arm64-arm-64bit",
+  "python": "CPython 3.12.12",
+  "startedAt": "2026-01-08T12:59:24.936791Z",
+  "program": "/Users/mathiaskroismoller/Documents/DTU/Kanditat/2. Semester/MLOPS/mlops_mnist/src/mnist_project/train.py",
+  "codePath": "Documents/DTU/Kanditat/2. Semester/MLOPS/mlops_mnist/src/mnist_project/train.py",
+  "codePathLocal": "src/mnist_project/train.py",
+  "git": {
+    "remote": "https://github.com/mathiaskrois/DSP.git",
+    "commit": "ac233ba7e0254d45f617ed926ee99de4528b188b"
+  },
+  "email": "mathias.krois@gmail.com",
+  "root": "/Users/mathiaskroismoller/Documents/DTU/Kanditat/2. Semester/MLOPS/mlops_mnist",
+  "host": "Mathiass-MacBook-Pro-2.local",
+  "executable": "/Users/mathiaskroismoller/Documents/DTU/Kanditat/2. Semester/MLOPS/mlops_mnist/.venv/bin/python3",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "436004466688"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M1 Pro",
+    "ecpuCores": 2,
+    "pcpuCores": 8,
+    "gpuCores": 16,
+    "memoryGb": 16,
+    "swapTotalBytes": "6442450944",
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "5st0mut8xq4s72mjrs492k2rucx5yoix"
+}
