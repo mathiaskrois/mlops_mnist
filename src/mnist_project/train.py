@@ -7,7 +7,6 @@ from src.mnist_project.model import MyAwesomeModel
 from sklearn.metrics import RocCurveDisplay
 from torchvision.utils import make_grid
 
-# Select device
 DEVICE = torch.device(
     "cuda"
     if torch.cuda.is_available()
