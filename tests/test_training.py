@@ -34,5 +34,3 @@ def test_training_logs_metrics(monkeypatch):
 
     assert logged
     assert "train_loss" in logged[0]
-
-
