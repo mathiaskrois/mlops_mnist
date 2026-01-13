@@ -1,6 +1,8 @@
 import torch
 import typer
 from pathlib import Path
+import matplotlib.pyplot as plt  # only needed for plotting
+from mpl_toolkits.axes_grid1 import ImageGrid  # only needed for plotting
 
 
 def normalize(images: torch.Tensor) -> torch.Tensor:
@@ -51,5 +53,19 @@ def corrupt_mnist(processed_dir: str = "data/processed") -> tuple[torch.utils.da
     return train_set, test_set
 
 
+def show_image_and_target(images: torch.Tensor, target: torch.Tensor) -> None:
+    """Plot images and their labels in a grid."""
+    row_col = int(len(images) ** 0.5)
+    fig = plt.figure(figsize=(10.0, 10.0))
+    grid = ImageGrid(fig, 111, nrows_ncols=(row_col, row_col), axes_pad=0.3)
+    for ax, im, label in zip(grid, images, target):
+        ax.imshow(im.squeeze(), cmap="gray")
+        ax.set_title(f"Label: {label.item()}")
+        ax.axis("off")
+    plt.show()
+
+
 if __name__ == "__main__":
     typer.run(preprocess_data)
+    train_set, test_set = corrupt_mnist()
+    show_image_and_target(train_set.tensors[0][:25], train_set.tensors[1][:25])

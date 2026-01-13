@@ -36,6 +36,11 @@ dependencies = [
     "torch",
     "wandb",
     "pytorch-lightning>=2.6.0",
+    "utils>=1.0.2",
+    "dvc>=3.66.1",
+    "dvc-gdrive>=3.0.1",
+    "pip>=25.3",
+    "dvc-gs>=3.0.2",
 ]
 
 [dependency-groups]
