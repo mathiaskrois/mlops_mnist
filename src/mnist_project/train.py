@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import torch
 import typer
 import wandb
-from src.mnist_project.data import corrupt_mnist
-from src.mnist_project.model import MyAwesomeModel
+from data import corrupt_mnist
+from model import MyAwesomeModel
 from sklearn.metrics import RocCurveDisplay
 from torchvision.utils import make_grid
 
